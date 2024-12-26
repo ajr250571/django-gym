@@ -1,0 +1,11 @@
+{% load bootstrap4 %}
+{% load crispy_forms_tags %}
+
+<h1>SignUp</h1>
+<form action="" method="POST">
+  {% csrf_token %}
+  {{ form|crispy }}
+  {% buttons %}
+  <button class="btn btn-primary" type="submit">SignUp</button>
+  {% endbuttons %}
+</form>

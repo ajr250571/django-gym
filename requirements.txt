@@ -1,0 +1,4 @@
+Django==5.1.4
+django-bootstrap4==24.4
+django-crispy-forms==2.3
+django-jazzmin==3.0.1
